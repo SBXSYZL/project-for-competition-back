@@ -1,0 +1,22 @@
+2020-03-02 11:59:50.503  INFO 25508 --- [main] com.project.demo.App                     : Starting App on LAPTOP-M0F0661E with PID 25508 (D:\MyDataArea\JAVA_CODE\project-for-competition-back\target\classes started by YZL in D:\MyDataArea\JAVA_CODE\project-for-competition-back)
+2020-03-02 11:59:50.504 DEBUG 25508 --- [main] com.project.demo.App                     : Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2020-03-02 11:59:50.504  INFO 25508 --- [main] com.project.demo.App                     : The following profiles are active: dev
+2020-03-02 11:59:51.332  WARN 25508 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.project.demo.dao]' package. Please check your configuration.
+2020-03-02 11:59:51.427  WARN 25508 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.project.demo]' package. Please check your configuration.
+2020-03-02 11:59:51.471  INFO 25508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-02 11:59:51.474  INFO 25508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-02 11:59:51.505  INFO 25508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2020-03-02 11:59:51.734  INFO 25508 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b161f35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-02 11:59:51.964  INFO 25508 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-02 11:59:51.987  INFO 25508 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-02 11:59:51.987  INFO 25508 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-02 11:59:52.065  INFO 25508 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-02 11:59:52.065  INFO 25508 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1462 ms
+2020-03-02 11:59:52.359  INFO 25508 --- [main] torConfig$VisiableThreadPoolTaskExecutor : Initializing ExecutorService
+2020-03-02 11:59:52.360  INFO 25508 --- [main] torConfig$VisiableThreadPoolTaskExecutor : Initializing ExecutorService 'asyncServiceExecutor'
+2020-03-02 11:59:52.600  INFO 25508 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-02 11:59:53.181  INFO 25508 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-03-02 11:59:53.196  INFO 25508 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-03-02 11:59:53.216  INFO 25508 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-03-02 11:59:53.245  INFO 25508 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-02 11:59:53.247  INFO 25508 --- [main] com.project.demo.App                     : Started App in 3.177 seconds (JVM running for 4.651)

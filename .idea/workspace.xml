@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5df61214-fe16-491c-9a4a-92ec157b9f02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/logging.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-for-competition-back.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/config/ExecutorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/config/Swagger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/error/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/error/CommonError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/error/EmBusinessErr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/interceptor/LogInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/interceptor/MyWebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/interceptor/TeacherLoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/response/CommonReturnType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/response/RTStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/Base64Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/DecimalUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/HtmlParseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/MyExceptionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/MyLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/MySessionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/PageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/PinyinUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/SearchUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/TestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/validator/MyValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-generator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/project/demo/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/config/ExecutorConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/config/ExecutorConfig$VisiableThreadPoolTaskExecutor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/config/ExecutorConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/config/Swagger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/controller/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/error/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/error/CommonError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/error/EmBusinessErr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/interceptor/LogInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/interceptor/MyWebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/interceptor/TeacherLoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/response/CommonReturnType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/response/RTStr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/Base64Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/DecimalUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/ExcelUtil$UserImportModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/ExcelUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/FileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/HtmlParseUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/MD5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/MyExceptionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/MyLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/MySessionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/PageUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/PinyinUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/SearchUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/TestUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/validator/MyValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-generator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/project/demo/AppTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\Apache\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YYYyIm8JgKdTI8vmmSnbWEs8U6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyDataArea\JAVA_CODE\project-for-competition-back\src\main\java\com\project\demo" />
+      <recent name="D:\MyDataArea\JAVA_CODE\project-for-competition-back\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="project-for-competition-back" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.demo.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5df61214-fe16-491c-9a4a-92ec157b9f02" name="Default Changelist" comment="" />
+      <created>1583121247793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583121247793</updated>
+      <workItem from="1583121249207" duration="1227000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2629" y="281" key="FileChooserDialogImpl" timestamp="1583122432486">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2629" y="281" key="FileChooserDialogImpl/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583122432486" />
+    <state x="2662" y="431" width="374" height="257" key="Github.ShareDialog" timestamp="1583121946696">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2662" y="431" width="374" height="257" key="Github.ShareDialog/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583121946696" />
+    <state width="1815" height="334" key="GridCell.Tab.0.bottom" timestamp="1583121669944">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="334" key="GridCell.Tab.0.bottom/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583121669944" />
+    <state width="1815" height="334" key="GridCell.Tab.0.center" timestamp="1583121669944">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="334" key="GridCell.Tab.0.center/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583121669944" />
+    <state width="1815" height="334" key="GridCell.Tab.0.left" timestamp="1583121669944">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="334" key="GridCell.Tab.0.left/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583121669944" />
+    <state width="1815" height="334" key="GridCell.Tab.0.right" timestamp="1583121669944">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="334" key="GridCell.Tab.0.right/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583121669944" />
+    <state width="1815" height="334" key="GridCell.Tab.1.bottom" timestamp="1583121669944">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="334" key="GridCell.Tab.1.bottom/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583121669944" />
+    <state width="1815" height="334" key="GridCell.Tab.1.center" timestamp="1583121669944">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="334" key="GridCell.Tab.1.center/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583121669944" />
+    <state width="1815" height="334" key="GridCell.Tab.1.left" timestamp="1583121669944">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="334" key="GridCell.Tab.1.left/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583121669944" />
+    <state width="1815" height="334" key="GridCell.Tab.1.right" timestamp="1583121669944">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="334" key="GridCell.Tab.1.right/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583121669944" />
+    <state x="2441" y="273" key="Vcs.Push.Dialog.v2" timestamp="1583122466616">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2441" y="273" key="Vcs.Push.Dialog.v2/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583122466616" />
+  </component>
+  <component name="ideajad">
+    <property name="annotate" value="false" />
+    <property name="annotateFully" value="false" />
+    <property name="braces" value="false" />
+    <property name="clear" value="false" />
+    <property name="confirmNavigationTriggeredDecompile" value="true" />
+    <property name="dead" value="true" />
+    <property name="defaultInitializers" value="false" />
+    <property name="dissassemblerOnly" value="false" />
+    <property name="fieldsFirst" value="true" />
+    <property name="fileExtension" value="java" />
+    <property name="fullyQualifiedNames" value="false" />
+    <property name="indentation" value="4" />
+    <property name="intRadix" value="10" />
+    <property name="lineNumbersAsComments" value="true" />
+    <property name="longRadix" value="10" />
+    <property name="maxStringLength" value="64" />
+    <property name="nocast" value="false" />
+    <property name="noclass" value="false" />
+    <property name="nocode" value="false" />
+    <property name="noconv" value="false" />
+    <property name="noctor" value="false" />
+    <property name="nodos" value="false" />
+    <property name="nofd" value="false" />
+    <property name="noinner" value="false" />
+    <property name="nolvt" value="false" />
+    <property name="nonlb" value="false" />
+    <property name="outputDirectory" value="" />
+    <property name="packFields" value="3" />
+    <property name="packImports" value="7" />
+    <property name="prefixNumericalClasses" value="_cls" />
+    <property name="prefixNumericalFields" value="_fld" />
+    <property name="prefixNumericalLocals" value="_lcl" />
+    <property name="prefixNumericalMethods" value="_mth" />
+    <property name="prefixNumericalParameters" value="_prm" />
+    <property name="prefixUnusedExceptions" value="_ex" />
+    <property name="readonly" value="false" />
+    <property name="safe" value="false" />
+    <property name="sort" value="false" />
+    <property name="spaceAfterKeyword" value="false" />
+    <property name="splitStringsAtNewline" value="false" />
+    <property name="useTabs" value="false" />
+  </component>
+</project>
