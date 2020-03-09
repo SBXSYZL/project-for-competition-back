@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.project.demo.dao.ProductDOMapper">
+    <resultMap id="BaseResultMap" type="com.project.demo.DO.ProductDO">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="price" jdbcType="DECIMAL" property="price"/>
+        <result column="stock" jdbcType="INTEGER" property="stock"/>
+        <result column="like_cnt" jdbcType="INTEGER" property="likeCnt"/>
+        <result column="comment_cnt" jdbcType="INTEGER" property="commentCnt"/>
+        <result column="sale_cnt" jdbcType="INTEGER" property="saleCnt"/>
+        <result column="shop_id" jdbcType="INTEGER" property="shopId"/>
+        <result column="type_id" jdbcType="INTEGER" property="typeId"/>
+        <result column="post_date" jdbcType="DATE" property="postDate"/>
+    </resultMap>
+    <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.project.demo.DO.ProductDO">
+        <result column="desc" jdbcType="LONGVARCHAR" property="desc"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    id, name, price, stock, like_cnt, comment_cnt, sale_cnt, shop_id, type_id,post_date
+  </sql>
+    <sql id="Blob_Column_List">
+    desc
+  </sql>
+
+
+    <select id="getProductList" resultType="com.project.demo.VO.ProductFirstVO">
+        select pr.id as id,pr.name,pr.price,pr.stock,pr.desc,pr.shop_name as shopName,pi.url
+        from(
+        select pro.id,pro.name,pro.price,pro.stock,pro.desc,MIN(pi.id) as img_id,shop_name
+        from
+        (select p.id, p.name, p.price, p.stock, p.like_cnt, p.comment_cnt, p.sale_cnt, s.name as shop_name,p.desc
+        from product p inner join shop s
+        on p.shop_id=s.id inner join product_type pt
+        on p.type_id=pt.id
+        <choose>
+            <when test="typeId != null and shopId != null">
+                where pt.id=#{typeId,jdbcType=INTEGER} and s.id=#{shopId,jdbcType=INTEGER}
+            </when>
+            <otherwise>
+                <choose>
+                    <when test="shopId != null">
+                        where s.id=#{shopId,jdbcType=INTEGER}
+                    </when>
+                    <otherwise>
+                        <choose>
+                            <when test="typeId != null">
+                                where pt.id=#{typeId,jdbcType=INTEGER}
+                            </when>
+                        </choose>
+                    </otherwise>
+                </choose>
+            </otherwise>
+        </choose>
+        ) as pro inner join product_image pi
+        on pro.id = pi.product_id
+        group by pro.id,pro.name,pro.price,pro.stock,pro.desc,pro.shop_name
+        )as pr INNER JOIN product_image pi
+        on pr.img_id=pi.id
+        limit #{startIndex},#{pageSize}
+    </select>
+    <select id="getProductDetail" resultType="com.project.demo.VO.ProDuctDetailVO">
+        select p.id, p.name, p.price, p.stock, p.like_cnt, p.comment_cnt, p.sale_cnt, p.shop_id,shop.name as shopName, p.type_id,p.post_date,p.desc
+        from product p inner join shop
+        on p.shop_id=shop.id
+        where p.id=#{productId,jdbcType=INTEGER}
+    </select>
+    <update id="buyProduct">
+        update product
+        set stock=stock-#{buyCnt,jdbcType=INTEGER},
+        sale_cnt=sale_cnt+#{buyCnt,jdbcType=INTEGER}
+        where id=#{productId,jdbcType=INTEGER} and (stock-#{buyCnt,jdbcType=INTEGER})>0
+    </update>
+    <select id="getProduct" resultType="com.project.demo.VO.ProductFirstVO">
+        select pr.id as id,pr.name,pr.price,pr.stock,pr.desc,pr.shop_name as shopName,pi.url
+        from(
+        select pro.id,pro.name,pro.price,pro.stock,pro.desc,MIN(pi.id) as img_id,shop_name
+        from
+        (select p.id, p.name, p.price, p.stock, p.like_cnt, p.comment_cnt, p.sale_cnt, s.name as shop_name,p.desc
+        from product p inner join shop s
+        on p.shop_id=s.id inner join product_type pt
+        on p.type_id=pt.id
+        ) as pro inner join product_image pi
+        on pro.id = pi.product_id
+        group by pro.id,pro.name,pro.price,pro.stock,pro.desc,pro.shop_name
+        )as pr INNER JOIN product_image pi
+        on pr.img_id=pi.id
+        where pr.id=#{productId,jdbcType=INTEGER}
+    </select>
+    <select id="searchProduct" resultType="com.project.demo.VO.ProductFirstVO">
+        select pr.id as id,pr.name,pr.price,pr.stock,pr.desc,pr.shop_name as shopName,pi.url
+        from(
+        select pro.id,pro.name,pro.price,pro.stock,pro.desc,MIN(pi.id) as img_id,shop_name
+        from
+        (select p.id, p.name, p.price, p.stock, p.like_cnt, p.comment_cnt, p.sale_cnt, s.name as shop_name,p.desc
+        from product p inner join shop s
+        on p.shop_id=s.id inner join product_type pt
+        on p.type_id=pt.id
+        ) as pro inner join product_image pi
+        on pro.id = pi.product_id
+        group by pro.id,pro.name,pro.price,pro.stock,pro.desc,pro.shop_name
+        )as pr INNER JOIN product_image pi
+        on pr.img_id=pi.id
+        where locate(#{searchKey,jdbcType=VARCHAR},pr.name)>0 or
+        locate(#{searchKey,jdbcType=VARCHAR},pr.desc)>0
+    </select>
+</mapper>

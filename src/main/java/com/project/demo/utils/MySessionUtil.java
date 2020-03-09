@@ -16,12 +16,13 @@ import java.util.Objects;
  * 2019/04/30
  */
 public final class MySessionUtil {
+    public static String SHOP_CART = "shop_cart";
 
     public static String USER_ID = "id: ";
 
-//    static {
-//        MySessionUtil.getSession().setAttribute(USER_ID, 8);
-//    }
+    static {
+        MySessionUtil.getSession().setAttribute(USER_ID, 1);
+    }
 
     /**
      * @author Zjp

@@ -2,90 +2,118 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5df61214-fe16-491c-9a4a-92ec157b9f02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/logging.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-for-competition-back.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/config/ExecutorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/config/Swagger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/error/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/error/CommonError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/error/EmBusinessErr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/interceptor/LogInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/interceptor/MyWebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/interceptor/TeacherLoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/response/CommonReturnType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/response/RTStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/Base64Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/DecimalUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/HtmlParseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/MyExceptionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/MyLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/MySessionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/PageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/PinyinUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/SearchUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/TestUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/validator/MyValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-generator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/project/demo/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/config/ExecutorConfig$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/config/ExecutorConfig$VisiableThreadPoolTaskExecutor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/config/ExecutorConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/config/RedisConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/config/Swagger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/controller/BaseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/error/BusinessException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/error/CommonError.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/error/EmBusinessErr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/interceptor/LogInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/interceptor/MyWebConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/interceptor/TeacherLoginInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/response/CommonReturnType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/response/RTStr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/Base64Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/Constants.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/DecimalUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/ExcelUtil$UserImportModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/ExcelUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/FileUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/HtmlParseUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/MD5Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/MyExceptionUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/MyLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/MySessionUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/PageUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/PinyinUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/SearchUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/TestUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/project/demo/validator/MyValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-generator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/project/demo/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/logging.log.2020-03-02.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/logging.log.2020-03-03.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/logging.log.2020-03-04.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/logging.log.2020-03-05.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/logging.log.2020-03-06.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/logging.log.2020-03-07.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/logging.log.2020-03-08.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/DO/ChildOrderDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/DO/CommentDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/DO/OrderDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/DO/ProductDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/DO/ProductImageDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/DO/ProductTypeDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/DO/ProductTypeGroupDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/DO/ShopDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/DO/ShopTypeDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/DO/UserDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/VO/CommentVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/VO/OrderFirstVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/VO/ProDuctDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/VO/ProductFirstVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/VO/ProductTypeVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/dao/ChildOrderDOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/dao/CommentDOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/dao/OrderDOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/dao/ProductDOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/dao/ProductImageDOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/dao/ProductTypeDOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/dao/ProductTypeGroupDOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/dao/ShopDOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/dao/ShopTypeDOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/dao/UserDOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/service/Impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ChildOrderDOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/CommentDOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/OrderDOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ProductDOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ProductImageDOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ProductTypeDOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ProductTypeGroupDOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ShopDOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ShopTypeDOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/UserDOMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/logging.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/logging.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/demo/config/Swagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/config/Swagger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/demo/error/EmBusinessErr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/error/EmBusinessErr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/MySessionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/demo/utils/MySessionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-generator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-generator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/demo/config/Swagger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/demo/config/Swagger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/demo/error/EmBusinessErr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/demo/error/EmBusinessErr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/demo/utils/MySessionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/demo/utils/MySessionUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-generator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-generator.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="tb@47.97.42.155" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="tb@47.97.42.155" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\MyDataArea\JAVA_CODE\project-for-competition-back\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -100,26 +128,63 @@
     </option>
   </component>
   <component name="ProjectId" id="1YYYyIm8JgKdTI8vmmSnbWEs8U6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyDataArea\JAVA_CODE\project-for-competition-back\target\classes\static" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MyDataArea\JAVA_CODE\project-for-competition-back\src\main\java\com\project\demo" />
       <recent name="D:\MyDataArea\JAVA_CODE\project-for-competition-back\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.App">
+    <configuration name="project-for-competition-back [mybatis-generator:generate]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="project-for-competition-back" />
       <extension name="coverage">
@@ -129,10 +194,17 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.demo.App" />
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="visualVMId" value="817480632979500" />
+      </RunnerSettings>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Maven.project-for-competition-back [mybatis-generator:generate]" />
+      <item itemvalue="Spring Boot.App" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.App" />
@@ -143,6 +215,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.1394177" />
           <treeState>
             <expand />
             <select />
@@ -161,58 +234,231 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583121247793</updated>
-      <workItem from="1583121249207" duration="1227000" />
+      <workItem from="1583121249207" duration="10109000" />
+      <workItem from="1583216089412" duration="1014000" />
+      <workItem from="1583223415900" duration="4931000" />
+      <workItem from="1583281935392" duration="14427000" />
+      <workItem from="1583371177747" duration="10550000" />
+      <workItem from="1583458783222" duration="618000" />
+      <workItem from="1583493415291" duration="2550000" />
+      <workItem from="1583546682751" duration="9522000" />
+      <workItem from="1583639698409" duration="10099000" />
+      <workItem from="1583725686855" duration="6947000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1583122506175</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583122506175</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="2441" y="199" key="#Inspections" timestamp="1583291086497">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2441" y="199" key="#Inspections/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583291086497" />
+    <state x="2441" y="199" key="#VisualVM_Launcher" timestamp="1583594870745">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2441" y="199" key="#VisualVM_Launcher/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583594870745" />
+    <state x="2303" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583126442446">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2303" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583126442446" />
+    <state x="2654" y="250" key="#com.intellij.ide.util.MemberChooser" timestamp="1583736395422">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2654" y="250" key="#com.intellij.ide.util.MemberChooser/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583736395422" />
+    <state x="2385" y="465" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583125837697">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2385" y="465" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583125837697" />
+    <state x="2347" y="130" key="CommitChangelistDialog2" timestamp="1583122505240">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2347" y="130" key="CommitChangelistDialog2/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583122505240" />
     <state x="2629" y="281" key="FileChooserDialogImpl" timestamp="1583122432486">
       <screen x="1920" y="0" width="1858" height="1080" />
     </state>
     <state x="2629" y="281" key="FileChooserDialogImpl/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583122432486" />
-    <state x="2662" y="431" width="374" height="257" key="Github.ShareDialog" timestamp="1583121946696">
+    <state x="2662" y="431" width="374" height="257" key="Github.ShareDialog" timestamp="1583122661149">
       <screen x="1920" y="0" width="1858" height="1080" />
     </state>
-    <state x="2662" y="431" width="374" height="257" key="Github.ShareDialog/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583121946696" />
-    <state width="1815" height="334" key="GridCell.Tab.0.bottom" timestamp="1583121669944">
+    <state x="2662" y="431" width="374" height="257" key="Github.ShareDialog/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583122661149" />
+    <state width="1815" height="364" key="GridCell.Tab.0.bottom" timestamp="1583739808261">
       <screen x="1920" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="334" key="GridCell.Tab.0.bottom/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583121669944" />
-    <state width="1815" height="334" key="GridCell.Tab.0.center" timestamp="1583121669944">
+    <state width="1415" height="360" key="GridCell.Tab.0.bottom/0.0.1458.864/1920.0.1858.1080@0.0.1458.864" timestamp="1583738554557" />
+    <state width="1815" height="364" key="GridCell.Tab.0.bottom/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583739808261" />
+    <state width="1815" height="364" key="GridCell.Tab.0.center" timestamp="1583739808261">
       <screen x="1920" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="334" key="GridCell.Tab.0.center/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583121669944" />
-    <state width="1815" height="334" key="GridCell.Tab.0.left" timestamp="1583121669944">
+    <state width="1415" height="360" key="GridCell.Tab.0.center/0.0.1458.864/1920.0.1858.1080@0.0.1458.864" timestamp="1583738554556" />
+    <state width="1815" height="364" key="GridCell.Tab.0.center/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583739808261" />
+    <state width="1815" height="364" key="GridCell.Tab.0.left" timestamp="1583739808261">
       <screen x="1920" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="334" key="GridCell.Tab.0.left/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583121669944" />
-    <state width="1815" height="334" key="GridCell.Tab.0.right" timestamp="1583121669944">
+    <state width="1415" height="360" key="GridCell.Tab.0.left/0.0.1458.864/1920.0.1858.1080@0.0.1458.864" timestamp="1583738554556" />
+    <state width="1815" height="364" key="GridCell.Tab.0.left/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583739808261" />
+    <state width="1815" height="364" key="GridCell.Tab.0.right" timestamp="1583739808261">
       <screen x="1920" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="334" key="GridCell.Tab.0.right/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583121669944" />
-    <state width="1815" height="334" key="GridCell.Tab.1.bottom" timestamp="1583121669944">
+    <state width="1415" height="360" key="GridCell.Tab.0.right/0.0.1458.864/1920.0.1858.1080@0.0.1458.864" timestamp="1583738554557" />
+    <state width="1815" height="364" key="GridCell.Tab.0.right/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583739808261" />
+    <state width="1815" height="364" key="GridCell.Tab.1.bottom" timestamp="1583739808261">
       <screen x="1920" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="334" key="GridCell.Tab.1.bottom/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583121669944" />
-    <state width="1815" height="334" key="GridCell.Tab.1.center" timestamp="1583121669944">
+    <state width="1415" height="360" key="GridCell.Tab.1.bottom/0.0.1458.864/1920.0.1858.1080@0.0.1458.864" timestamp="1583738554557" />
+    <state width="1815" height="364" key="GridCell.Tab.1.bottom/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583739808261" />
+    <state width="1815" height="364" key="GridCell.Tab.1.center" timestamp="1583739808261">
       <screen x="1920" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="334" key="GridCell.Tab.1.center/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583121669944" />
-    <state width="1815" height="334" key="GridCell.Tab.1.left" timestamp="1583121669944">
+    <state width="1415" height="360" key="GridCell.Tab.1.center/0.0.1458.864/1920.0.1858.1080@0.0.1458.864" timestamp="1583738554557" />
+    <state width="1815" height="364" key="GridCell.Tab.1.center/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583739808261" />
+    <state width="1815" height="364" key="GridCell.Tab.1.left" timestamp="1583739808261">
       <screen x="1920" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="334" key="GridCell.Tab.1.left/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583121669944" />
-    <state width="1815" height="334" key="GridCell.Tab.1.right" timestamp="1583121669944">
+    <state width="1415" height="360" key="GridCell.Tab.1.left/0.0.1458.864/1920.0.1858.1080@0.0.1458.864" timestamp="1583738554557" />
+    <state width="1815" height="364" key="GridCell.Tab.1.left/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583739808261" />
+    <state width="1815" height="364" key="GridCell.Tab.1.right" timestamp="1583739808261">
       <screen x="1920" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="334" key="GridCell.Tab.1.right/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583121669944" />
-    <state x="2441" y="273" key="Vcs.Push.Dialog.v2" timestamp="1583122466616">
+    <state width="1415" height="360" key="GridCell.Tab.1.right/0.0.1458.864/1920.0.1858.1080@0.0.1458.864" timestamp="1583738554557" />
+    <state width="1815" height="364" key="GridCell.Tab.1.right/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583739808261" />
+    <state width="1815" height="364" key="GridCell.Tab.2.bottom" timestamp="1583739808262">
       <screen x="1920" y="0" width="1858" height="1080" />
     </state>
-    <state x="2441" y="273" key="Vcs.Push.Dialog.v2/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583122466616" />
+    <state width="1815" height="364" key="GridCell.Tab.2.bottom/0.0.1458.864/1920.0.1858.1080@0.0.1458.864" timestamp="1583424040383" />
+    <state width="1815" height="364" key="GridCell.Tab.2.bottom/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583739808262" />
+    <state width="1815" height="364" key="GridCell.Tab.2.center" timestamp="1583739808261">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="364" key="GridCell.Tab.2.center/0.0.1458.864/1920.0.1858.1080@0.0.1458.864" timestamp="1583424040383" />
+    <state width="1815" height="364" key="GridCell.Tab.2.center/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583739808261" />
+    <state width="1815" height="364" key="GridCell.Tab.2.left" timestamp="1583739808261">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="364" key="GridCell.Tab.2.left/0.0.1458.864/1920.0.1858.1080@0.0.1458.864" timestamp="1583424040383" />
+    <state width="1815" height="364" key="GridCell.Tab.2.left/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583739808261" />
+    <state width="1815" height="364" key="GridCell.Tab.2.right" timestamp="1583739808261">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="364" key="GridCell.Tab.2.right/0.0.1458.864/1920.0.1858.1080@0.0.1458.864" timestamp="1583424040383" />
+    <state width="1815" height="364" key="GridCell.Tab.2.right/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583739808261" />
+    <state x="2441" y="273" key="Vcs.Push.Dialog.v2" timestamp="1583122650527">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2441" y="273" key="Vcs.Push.Dialog.v2/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583122650527" />
+    <state x="2529" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1583725687217">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="478" y="291" key="com.intellij.ide.util.TipDialog/0.0.1458.864/1920.0.1858.1080@0.0.1458.864" timestamp="1583458792352" />
+    <state x="2529" y="364" key="com.intellij.ide.util.TipDialog/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583725687217" />
+    <state x="59" y="0" width="1413" height="882" maximized="true" key="dock-window-1" timestamp="1583582741085">
+      <screen x="0" y="0" width="1458" height="864" />
+    </state>
+    <state x="59" y="0" width="1413" height="882" maximized="true" key="dock-window-1/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583582741085" />
+    <state x="0" y="0" width="1413" height="882" maximized="true" key="dock-window-2" timestamp="1583582741085">
+      <screen x="0" y="0" width="1458" height="864" />
+    </state>
+    <state x="0" y="0" width="1413" height="882" maximized="true" key="dock-window-2/0.0.1458.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1583582741085" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/demo/controller/ProductController.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/demo/controller/ProductController.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/demo/controller/ProductController.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/demo/controller/ProductController.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/demo/controller/ProductController.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/demo/controller/ProductController.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/demo/controller/ProductController.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/demo/controller/ProductController.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/demo/controller/ProductController.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/demo/controller/ProductController.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/demo/controller/ProductController.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/demo/controller/ProductController.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/demo/controller/ProductController.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/demo/controller/ProductController.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/demo/controller/ProductController.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/demo/service/Impl/ProductServiceImpl.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="ideajad">
     <property name="annotate" value="false" />

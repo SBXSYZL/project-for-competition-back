@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.project.demo.dao.CommentDOMapper">
+    <resultMap id="BaseResultMap" type="com.project.demo.DO.CommentDO">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="user_id" jdbcType="INTEGER" property="userId"/>
+        <result column="like_cnt" jdbcType="INTEGER" property="likeCnt"/>
+        <result column="product_id" jdbcType="INTEGER" property="productId"/>
+    </resultMap>
+    <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.project.demo.DO.CommentDO">
+        <result column="comment" jdbcType="LONGVARCHAR" property="comment"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    id, user_id, like_cnt,product_id
+  </sql>
+    <sql id="Blob_Column_List">
+    comment
+  </sql>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+        select
+        <include refid="Base_Column_List"/>
+        ,
+        <include refid="Blob_Column_List"/>
+        from comment
+        where id = #{id,jdbcType=INTEGER}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from comment
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+    <insert id="insert" parameterType="com.project.demo.DO.CommentDO">
+    insert into comment (id, user_id, like_cnt, 
+      comment)
+    values (#{id,jdbcType=INTEGER}, #{userId,jdbcType=INTEGER}, #{likeCnt,jdbcType=INTEGER}, 
+      #{comment,jdbcType=LONGVARCHAR})
+  </insert>
+    <insert id="insertSelective" parameterType="com.project.demo.DO.CommentDO">
+        insert into comment
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            <if test="userId != null">
+                user_id,
+            </if>
+            <if test="likeCnt != null">
+                like_cnt,
+            </if>
+            <if test="comment != null">
+                comment,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbcType=INTEGER},
+            </if>
+            <if test="userId != null">
+                #{userId,jdbcType=INTEGER},
+            </if>
+            <if test="likeCnt != null">
+                #{likeCnt,jdbcType=INTEGER},
+            </if>
+            <if test="comment != null">
+                #{comment,jdbcType=LONGVARCHAR},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.project.demo.DO.CommentDO">
+        update comment
+        <set>
+            <if test="userId != null">
+                user_id = #{userId,jdbcType=INTEGER},
+            </if>
+            <if test="likeCnt != null">
+                like_cnt = #{likeCnt,jdbcType=INTEGER},
+            </if>
+            <if test="comment != null">
+                comment = #{comment,jdbcType=LONGVARCHAR},
+            </if>
+        </set>
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.project.demo.DO.CommentDO">
+    update comment
+    set user_id = #{userId,jdbcType=INTEGER},
+      like_cnt = #{likeCnt,jdbcType=INTEGER},
+      comment = #{comment,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+    <update id="updateByPrimaryKey" parameterType="com.project.demo.DO.CommentDO">
+    update comment
+    set user_id = #{userId,jdbcType=INTEGER},
+      like_cnt = #{likeCnt,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+    <select id="selectByProductId" resultType="com.project.demo.VO.CommentVO">
+      select c.id, c.user_id, c.like_cnt,c.comment,c.product_id,u.user_name
+      from comment c inner join user u
+        on c.user_id=u.id
+      where c.product_id=#{productId,jdbcType=INTEGER}
+    </select>
+    <insert id="writeComment">
+        insert into comment(user_id, comment, product_id)
+        values(#{userId,jdbcType=INTEGER},#{comment,jdbcType=VARCHAR},#{productId,jdbcType=INTEGER})
+    </insert>
+</mapper>

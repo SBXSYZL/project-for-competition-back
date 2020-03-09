@@ -16,9 +16,9 @@
 
         <!-- 数据库连接配置：数据库地址和账号密码 -->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://120.26.56.122:3306/space"
+                        connectionURL="jdbc:mysql://47.97.42.155:3306/tb"
                         userId="root"
-                        password="spaceGroup">
+                        password="94763zl">
         </jdbcConnection>
 
         <javaTypeResolver>
@@ -52,56 +52,46 @@
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">
         </table>
-        <!--        <table tableName="msg" domainObjectName="MsgDO"-->
+        <!--        <table tableName="product_type_group" domainObjectName="ProductTypeGroupDO"-->
         <!--               enableCountByExample="false" enableUpdateByExample="false"-->
         <!--               enableDeleteByExample="false" enableSelectByExample="false"-->
         <!--               selectByExampleQueryId="false">-->
         <!--        </table>-->
-        <!--        <table tableName="user" domainObjectName="UserDO"-->
+        <!--        <table tableName="product_type" domainObjectName="ProductTypeDO"-->
         <!--               enableCountByExample="false" enableUpdateByExample="false"-->
         <!--               enableDeleteByExample="false" enableSelectByExample="false"-->
         <!--               selectByExampleQueryId="false">-->
         <!--        </table>-->
-        <!--        <table tableName="course" domainObjectName="CourseDO"-->
+        <!--                <table tableName="comment" domainObjectName="CommentDO"-->
+        <!--                       enableCountByExample="false" enableUpdateByExample="false"-->
+        <!--                       enableDeleteByExample="false" enableSelectByExample="false"-->
+        <!--                       selectByExampleQueryId="false">-->
+        <!--                </table>-->
+        <!--        &lt;!&ndash;        <table tableName="order" domainObjectName="OrderDO"&ndash;&gt;-->
+        <!--        &lt;!&ndash;               enableCountByExample="false" enableUpdateByExample="false"&ndash;&gt;-->
+        <!--        &lt;!&ndash;               enableDeleteByExample="false" enableSelectByExample="false"&ndash;&gt;-->
+        <!--        &lt;!&ndash;               selectByExampleQueryId="false">&ndash;&gt;-->
+        <!--        &lt;!&ndash;        </table>&ndash;&gt;-->
+        <!--        <table tableName="product" domainObjectName="ProductDO"-->
         <!--               enableCountByExample="false" enableUpdateByExample="false"-->
         <!--               enableDeleteByExample="false" enableSelectByExample="false"-->
         <!--               selectByExampleQueryId="false">-->
         <!--        </table>-->
-        <!--        <table tableName="elective" domainObjectName="ElectiveDO"-->
+        <!--        <table tableName="shop" domainObjectName="ShopDO"-->
         <!--               enableCountByExample="false" enableUpdateByExample="false"-->
         <!--               enableDeleteByExample="false" enableSelectByExample="false"-->
         <!--               selectByExampleQueryId="false">-->
         <!--        </table>-->
-        <!--        <table tableName="work" domainObjectName="WorkDO"-->
+        <!--        <table tableName="shop_type" domainObjectName="ShopTypeDO"-->
         <!--               enableCountByExample="false" enableUpdateByExample="false"-->
         <!--               enableDeleteByExample="false" enableSelectByExample="false"-->
         <!--               selectByExampleQueryId="false">-->
         <!--        </table>-->
-        <!--        <table tableName="contact" domainObjectName="ContactDO"-->
-        <!--               enableCountByExample="false" enableUpdateByExample="false"-->
-        <!--               enableDeleteByExample="false" enableSelectByExample="false"-->
-        <!--               selectByExampleQueryId="false">-->
-        <!--        </table>-->
-        <!--        <table tableName="lesson" domainObjectName="LessonDO"-->
-        <!--               enableCountByExample="false" enableUpdateByExample="false"-->
-        <!--               enableDeleteByExample="false" enableSelectByExample="false"-->
-        <!--               selectByExampleQueryId="false">-->
-        <!--        </table>-->
-        <!--        <table tableName="workSubmit" domainObjectName="WorkSubmitDO"-->
+        <!--        <table tableName="product_image" domainObjectName="ProductImageDO"-->
         <!--               enableCountByExample="false" enableUpdateByExample="false"-->
         <!--               enableDeleteByExample="false" enableSelectByExample="false"-->
         <!--               selectByExampleQueryId="false">-->
         <!--        </table>-->
 
-<!--                <table tableName="folder" domainObjectName="FolderDO"-->
-<!--                       enableCountByExample="false" enableUpdateByExample="false"-->
-<!--                       enableDeleteByExample="false" enableSelectByExample="false"-->
-<!--                       selectByExampleQueryId="false">-->
-<!--                </table>-->
-        <!--        <table tableName="files" domainObjectName="FileDO"-->
-        <!--               enableCountByExample="false" enableUpdateByExample="false"-->
-        <!--               enableDeleteByExample="false" enableSelectByExample="false"-->
-        <!--               selectByExampleQueryId="false">-->
-        <!--        </table>-->
     </context>
 </generatorConfiguration>

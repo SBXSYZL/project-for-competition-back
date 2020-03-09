@@ -37,32 +37,21 @@ public enum EmBusinessErr implements CommonError {
     FILE_NOT_FOUND(6003, "找不到该文件"),
     GET_FILES_UNDER_FOLDER_ID_ERROR(6004, "获取目录下文件失败"),
     FILE_DELETE_ERROR(6005, "删除文件失败"),
-
     DELETE_FILE_ERROR(6005, "删除文件失败"),
 
-    //课程相关
-    COURSE_LIST_GET_ERROR(7001, "课程列表获取失败"),
-    LESSON_LIST_GET_ERROR(7002, "课时列表获取失败"),
-    CREATE_COURSE_ERROR(7003, "创建课程失败"),
-    DELETE_COURSE_ERROR(7004, "删除课程失败"),
-    GET_ELECTIVE_LIST_ERROR(7005, "获取选中该课程学生列表失败"),
-    SEARCH_COURSE_ERROR(7006, "搜索课程出错"),
-    CREATE_WORK_ERROR(7007, "创建课时失败"),
-    GET_SUBMIT_WORK_ERROR(7008, "获取作业列表失败"),
-    SUBMIT_EVAL_ERROR(7009, "提交评分失败"),
-    SEARCH_WORK_ERROR(7010, "搜索课时失败"),
-    COURSE_GRADING_ERROR(7011, "课程评分失败"),
-    GET_SELECTED_COURSE_LIST_ERROR(7012, "获取已选择课程列表失败 "),
-    GET_COURSE_SCORE_ERROR(7013, "获取成绩失败"),
-    JOIN_COURSE_ERROR(7014, "加入课程失败"),
-    GET_OPTIONAL_COURSE_LIST(7015, "获取可选课程列表失败"),
-    GET_WORK_SCORE_ERROR(7016, "获取作业成绩失败"),
-    SUBMIT_WORK_ERROR(7017, "提交作业失败"),
-    DELETE_WORK_ERROR(7018, "删除作业失败"),
-
-    //消息相关
-    POST_MSG_ERROR(8001, "发送消息失败"),
-    GET_MSG_LIST_ERROR(8002, "获取消息列表失败");
+    //商品相关
+    GET_PRODUCT_LIST_ERROR(7001, "获取商品列表失败"),
+    GET_PRODUCT_TYPE_ERROR(7002, "获取商品类型失败"),
+    GET_PRODUCT_IMAGE_ERROR(7003, "获取商品图片失败"),
+    GET_PRODUCT_DETAIL_ERROR(7004, "获取商品详情失败"),
+    PRODUCT_ALREADY_IN_CART(7005, "该商品已经在购物车内了"),
+    BUY_PRODUCT_ERROR(7006, "购买商品失败"),
+    GET_COMMENT_OF_PRODUCT_ERROR(7007, "获取评论失败"),
+    GET_SHOP_CART_LIST_ERROR(7008, "获取购物车失败"),
+    GET_ORDER_ERROR(7009, "获取订单失败"),
+    STOCK_ERROR(7010, "库存不足"),
+    SEARCH_PRODUCT_ERROR(7011, "搜索商品失败"),
+    WRITE_COMMENT_ERROR(7012, "评价失败");
 //
 
 
